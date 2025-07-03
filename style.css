@@ -1,0 +1,29 @@
+body {
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.top {
+    display: flex;
+}
+
+.main {
+    font-size: 24px;
+    font-weight: 900;
+}
