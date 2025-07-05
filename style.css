@@ -36,6 +36,7 @@ a {
 .main {
     font-size: 24px;
     font-weight: 900;
+    margin-bottom: 5px;
 }
 
 .cards {
@@ -54,6 +55,7 @@ a {
     border: 3px solid #3882F6;
     width: 100px;
     height: 100px;
+    margin-top: 30px;
 }
 
 .item {
@@ -62,10 +64,11 @@ a {
     align-items: center;
     text-align: center;
     color: #1F2937;
+    gap: 5px;
 }
 
 .quote {
-    padding: 0 30px;
+    padding: 0 60px;
     font-style: italic;
 }
 
@@ -89,11 +92,30 @@ a {
 
 .white {
     background-color: white;
+    padding: 20px 60px;
 }
 
 .grey {
     background-color: #E5E7EB;
-    font-size: 30px;
+    font-size: 20px;
     color: #1F2937;
     padding: 20px 40px;
+}
+
+button {
+    padding: 5px 30px;
+    margin: 5px 0;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.blue {
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue button {
+    border: 3px solid white;
+    font-weight: 500;
 }
